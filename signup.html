@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeTogether | Sign Up</title>
+    <link rel="stylesheet" href="tradetogether.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+           
+            <img src="TradeLogo.png" alt="TradeTogether logo" class="logo">
+
+            <div>
+                <h1>TradeTogether</h1>
+                <p class="tagline">Trade skills. Build connections.</p>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Trading Services</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+				<li><a href="post.html">Request Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <h2>Sign Up</h2>
+            <p>
+                Complete the form below to join TradeTogether and share the services you offer and need.
+            </p>
+        </section>
+
+        <section class="form-section">
+            <form id="tradeForm">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="serviceoffer">Service You Offer:</label>
+                    <input type="text" id="serviceoffer" name="serviceoffer" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="serviceneed">Service You Need:</label>
+                    <input type="text" id="serviceneed" name="serviceneed" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="availability">Availability:</label>
+                    <select id="availability" name="availability">
+                        <option value="weekdays">Weekdays</option>
+                        <option value="evenings">Evenings</option>
+                        <option value="weekends">Weekends</option>
+                        <option value="flexible">Flexible</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Additional Notes:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+
+                
+
+                <button type="submit" class="button">Submit</button>
+            </form>
+
+            <p id="confirmationMessage" class="confirmation"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TradeTogether. All rights reserved.</p>
+    </footer>
+</body>
+</html>

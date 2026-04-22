@@ -1,0 +1,91 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeTogether | Requests</title>
+    <link rel="stylesheet" href="tradetogether.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="TradeLogo.png" alt="TradeTogether logo" class="logo">
+
+        <div>
+            <h1>TradeTogether</h1>
+            <p class="tagline">Trade skills. Build connections.</p>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Trading Services</a></li>
+            <li><a href="post.html">Request Services</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+  
+    <section class="banner-image">
+       
+        <img src="post.png" alt="Community helping each other">
+    </section>
+
+   
+    <section class="page-banner">
+        <h2>Request a Service</h2>
+        <p>
+            Let your community know what you need and what you can offer in return.
+            TradeTogether helps connect people through shared support and exchange.
+        </p>
+    </section>
+
+  
+    <section class="form-section">
+        <form id="requestForm">
+<p id="requestMessage" class="confirmation"></p>
+            <div class="form-group">
+                <label for="need">What do you need?</label>
+                <input type="text" id="need" name="need" required>
+            </div>
+
+            <div class="form-group">
+                <label for="zipcode">Zip Code</label>
+                <input type="text" id="zipcode" name="zipcode" required>
+            </div>
+
+            <div class="form-group">
+                <label for="offer">What can you offer in return?</label>
+                <input type="text" id="offer" name="offer" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contact">Email Address</label>
+                <input type="email" id="contact" name="contact" required>
+            </div>
+
+            <button type="submit" class="button">Submit Request</button>
+
+        </form>
+
+        <p id="requestMessage" class="confirmation"></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 TradeTogether. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
